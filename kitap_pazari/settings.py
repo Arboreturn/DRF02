@@ -124,3 +124,13 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+#çırak_x
+#asdasd05
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'kitaplar.api.pagination.LargePagination',
+    'PAGE_SIZE':20
+}
